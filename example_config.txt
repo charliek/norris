@@ -1,0 +1,15 @@
+# This is an example configuration that could be used. Move it to
+# ~/.norris and it should be picked up when the program runs.
+# Below are the default values. You only need to override the
+# values you want to change
+
+[config]
+# The url to fetch. This url should have one joke per line.
+url = http://charliek.github.com/norris/norris.txt
+
+# The timeout in seconds to use when fetching the url before failing
+timeout = .5
+
+# Should the program print something when if fails
+verbose = False
+
