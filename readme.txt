@@ -30,5 +30,3 @@ Things you can do
    norris | say
 
 3. You should tell me more ways to enjoy this.
-
-

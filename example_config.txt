@@ -4,7 +4,9 @@
 # values you want to change
 
 [config]
-# The url to fetch. This url should have one joke per line.
+# The url to fetch. This url should have one joke per line. This
+# can also be a file url if you want to avoid network IO. (e.g.
+# "url = file:///Users/cknudsen/projects/norris/norris.txt" )
 url = http://charliek.github.com/norris/norris.txt
 
 # The timeout in seconds to use when fetching the url before failing
